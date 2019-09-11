@@ -62,27 +62,47 @@
 
 * [Sniffer原理及驱动定制](https://github.com/threathunterX/nebula_doc/blob/master/chapter5/section1.md)
 * [nginx+lua+kafka 驱动介绍](https://github.com/threathunterX/nebula_doc/blob/master/chapter5/section2.md)
+* [Sniffer测试以及debug](https://github.com/threathunterX/nebula_doc/blob/master/chapter5/section3.md)
 
 ## 模拟演示
 下面是我们在阿里云上部署的一套星云，用户可以利用以下链接和账号密码登录，进行功能的查看。（注意该页面资源较多，请耐心等待加载）
 
-地址：http://112.74.58.210:9001
+地址：http://112.74.58.210:9001<br/>
+账号：threathunter_test<br/>
+密码：threathunter<br/>
 
-账号：threathunter_test
+## 更新说明
 
-密码：threathunter
+**Github上代码**在2019年7月份**停止功能更新**`(bug以及代码优化会不定期更新)`，商业版代码在持续更新中，并有以下提升：
+
+1. 增加api、logstash、rabbitmq等10+种流量捕获接入方式
+2. 线性扩展能力，以保证任何规模的数据量都可以处理
+3. 无单点故障，高可靠，以保证运营商级的服务
+4. 其他bug修复以及改进见下表
+
+## 授权说明
+
+威胁猎人团队2016年成立，核心团队成员均来自于国内一线互联网企业安全部门。我们的团队有来自情报分析、数据分析、业务风控、逆向、反欺诈等领域的资深专家，拥有多年黑产研究对抗经验。当您需要使用Github上的nebula代码时，**建议您购买商业授权**，获取商业授权后可以收到我们提供的nebula商业版全部源代码， 以及我们专业安全团队的协助。`购买商业授权为您节省大量开发、测试和完善时间，让您有更多时间用于创新及盈利`。
+
+<br/>
+负责人：卡卡<br/>
+微信号：imakaka<br/>
+
+## 需求定制
+
+威胁猎人提供基于nebula的需求咨询与功能开发定制，即使您不懂技术，也可以根据您的需求为您定制成品
+
+## 商业版代码更新内容
+
+**2019-7-24**
+
+4、修复mac上部署sniffer，bro驱动起不来的bug<br/>
+3、修复部分界面展示异常bug<br/>
+2、修复正常流量统计不实时bug<br/>
+1、修复偶尔断流bug<br/>
 
 
-## 特别感谢
 
-感谢GitHub ID：nancheal、icxcoffee、kerlingcode、zhujunlu、emmaaii、bsmial4、allanxia、lilololi的用户给我们提的Issue，我们会尽快跟进和修复相关问题
 
-感谢623位用户的Star
 
-感谢249为Followers
 
-官网地址：www.threathunter.cn
-
-技术支持：如果有任何问题请添加威胁猎人助手进行咨询。
-
-![kzjzQO.png](https://s2.ax1x.com/2019/03/08/kzjzQO.png)
